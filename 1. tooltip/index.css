@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 html, body {
@@ -44,7 +43,8 @@ html, body {
 
 .wrapper .icon span i {
   line-height: 60px;
-  font-size: 25px;
+  font-size: 30px;
+  font-style: normal;
 }
 
 .wrapper .icon .tooltip {
@@ -73,7 +73,7 @@ html, body {
   width: 15px;
   height: 15px;
   background: #fff;
-  bottom: -8px;
+  bottom: -5px;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265,1.55);
@@ -120,7 +120,7 @@ html, body {
 .wrapper .youtube:hover span,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip:before {
-  background: #de463b;
+  background: #ff0000;
   color: #fff;
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265,1.55);
 }
